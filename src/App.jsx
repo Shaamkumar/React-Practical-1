@@ -16,7 +16,7 @@ import About from './pages/About'
 
 import Params from './pages/Params'
 import Form from './pages/Form'
-// import Forms from './pages/Forms'
+//import Forms from './pages/Forms'
 
 import MyComponents from './pages/MyComponents'
 import ErrorFallback from './pages/ErrorFallback'
@@ -32,14 +32,14 @@ function App() {
         return(
         <>
        
-        {/* <Formss/>
+        <Formss/>
         <FormHook/>
         <MemoParent/>
         <MemoComputation/>
         <CallBackExample/>
         <ErrorBoundary FallbackComponent={ErrorFallback}>
             <MyComponents/>
-        </ErrorBoundary> */}
+        </ErrorBoundary> 
 
          <ParentComponent/>
         </>
