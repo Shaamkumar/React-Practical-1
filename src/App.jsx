@@ -32,11 +32,11 @@ function App() {
         return(
         <>
        
-        <Formss/>
+        {/* <Formss/>
         <FormHook/>
         <MemoParent/>
         <MemoComputation/>
-        <CallBackExample/>
+        <CallBackExample/> */}
         <ErrorBoundary FallbackComponent={ErrorFallback}>
             <MyComponents/>
         </ErrorBoundary> 
